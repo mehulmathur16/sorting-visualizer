@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.barDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.allButtons {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding: 1%;
+  align-items: center;
+}
+
+.heading {
+  padding: 1%;
+}
+
+button {
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  font-size: large;
+  padding: 1%;
+}
+
+button:hover,
+.speedTracker:hover,
+.sizeTracker:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.speedTracker,
+.sizeTracker {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  border-radius: 0.5rem;
+}
+
+.speed,
+.size {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  margin: 2%;
+}
